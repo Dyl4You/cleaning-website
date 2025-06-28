@@ -12,14 +12,14 @@
     <nav class="container flex">
       <a class="brand" href="#">CleaningVision</a>
       <ul class="nav-links">
-        <li><a href="#vision">Vision</a></li>
-        <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#vision">Vision</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero glass">
     <div class="container">
       <h1>Making Workspaces Effortlessly Clean</h1>
       <p>We engineer friction-free cleaning solutions so teams can focus on what they do best.</p>
@@ -27,34 +27,35 @@
     </div>
   </section>
 
-  <section id="vision" class="section">
+  <section id="contact" class="section glass">
     <div class="container">
-      <h2>Our Vision</h2>
-      <p>
-        To redefine commercial cleaning with smart, ergonomic toolkits
-        and data-driven routines that finish a 2 000&nbsp;sq ft office in under an hour—consistently
-        and sustainably.
-      </p>
+      <h2>Contact</h2>
+      <form id="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+        <div class="form-grid">
+          <input type="text"  name="name"     placeholder="Your name"  required />
+          <input type="email" name="_replyto" placeholder="Your email" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Tell us about your workspace…" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <p class="small">Prefer email? <a href="mailto:info@cleaningvision.com">info@cleaningvision.com</a></p>
     </div>
   </section>
 
-  <section id="roadmap" class="section alt">
+  <section id="roadmap" class="section alt glass">
     <div class="container">
       <h2>Roadmap</h2>
-
       <div class="timeline">
         <div class="milestone">
           <span class="dot"></span>
           <h3>Q3&nbsp;2025 – Pilot Program</h3>
           <p>Secure first paying contract &amp; test our engineered toolkit.</p>
         </div>
-
         <div class="milestone">
           <span class="dot"></span>
           <h3>Q4&nbsp;2025 – 5-Client Roll-out</h3>
           <p>Expand to five offices, refine SOPs, collect ROI metrics.</p>
         </div>
-
         <div class="milestone">
           <span class="dot"></span>
           <h3>2026 – Regional Expansion</h3>
@@ -64,23 +65,19 @@
     </div>
   </section>
 
-  <section id="contact" class="section">
+  <section id="vision" class="section glass">
     <div class="container">
-      <h2>Contact</h2>
-      <form id="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
-        <div class="form-grid">
-          <input type="text"  name="name"      placeholder="Your name"   required />
-          <input type="email" name="_replyto"  placeholder="Your email"  required />
-        </div>
-        <textarea name="message" rows="5" placeholder="Tell us about your workspace…" required></textarea>
-        <button class="btn" type="submit">Send Message</button>
-      </form>
-      <p class="small">Prefer email? <a href="mailto:info@cleaningvision.com">info@cleaningvision.com</a></p>
+      <h2>Our Vision</h2>
+      <p>
+        To redefine commercial cleaning with smart, ergonomic toolkits and data-driven
+        routines that finish a 2 000&nbsp;sq ft office in under an hour—consistently
+        and sustainably.
+      </p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 CleaningVision • Built with &#x1F499; on GitHub Pages</p>
+    <p>&copy; 2025 CleaningVision • Built with ❤️ on GitHub Pages</p>
   </footer>
 
   <script src="script.js"></script>
